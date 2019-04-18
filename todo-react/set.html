@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js" ></script>
+   <!-- included the CSS CDN of bootstrap 4.0.0-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <!-- online icons from fontawesome -->
+   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" >
+ 
+
+</head>
+<body>
+<div style="width: 50%; margin: 20px auto">
+  <form class="form needs-validation" action="" method="POST" id="contact-form" novalidate>
+
+    <div class="input-group mb-3 size">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="fas fa-user"></i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="First Name" name="first_name" required>
+      <div class="invalid-feedback">Please enter your First Name</div>
+    </div>
+
+    <div class="input-group mb-3 size">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="fas fa-user"></i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
+      <div class="invalid-feedback">Please enter your Last Name</div>
+    </div>
+
+    <button type="submit" class="btn btn-lg btn-primary text-align-center btn-block"><i class="fas fa-paper-plane"></i> Send</button>
+
+  </form>
+</div>
+
+
+
+<!-- This script is in external .js file -->
+<script>
+   $(document).ready(function() {
+  //alert("HEllo Nehal");
+  $("#contact-form").bootstrapValidator({
+    feedbackIcons: {
+      // valid: 'glyphicon glyphicon-ok',
+      // invalid: 'glyphicon glyphicon-remove',
+      // validating: 'glyphicon glyphicon-refresh'
+    },
+    fields: {
+      first_name: {
+        validators: {
+          stringLength: {
+            min: 10,
+            message: "First Name should be at least 10 characters long"
+          },
+          notEmpty: {
+            message: "Please Enter Your First Name"
+          }
+        }
+      },
+      last_name: {
+        validators: {
+          stringLength: {
+            min: 10,
+            message: "Last Name should be at least 10 character long"
+          },
+          notEmpty: {
+            message: "please Enter your Last Name"
+          }
+        }
+      }
+    }
+  })
+});
+
+</script>
+
+//external js file till here    
+
+<!-- for bootstrap validation -->
+    
+
+    <!-- online javaScript CDN of bootstrap 4.0.0 -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
