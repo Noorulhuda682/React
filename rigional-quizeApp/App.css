@@ -1,0 +1,65 @@
+    
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.start{
+  background: rgb(1, 80, 160);
+  padding: 10px 25px;
+  border-color: #282c34;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+.QuizeApp{
+  border : 2px solid black;
+}
+
+li{
+  padding-left: 10px;
+}
+
+/* input{
+   position: absolute;
+
+   background: #61dafb;
+} */
+span{
+  position: absolute;
+  padding-left: 0px; 
+  font-size: 13px;
+}
+.radio{
+padding-right: 300px;
+}
