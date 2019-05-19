@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 7vh;
+  display: flex;
+  padding: 0px 5px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(5px + 2vmin);
+  box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.5);
+  color: dodgerblue;
+  font-weight: normal;
+  
+}
+
+
+div{
+  cursor: pointer;
+  color: gray;
+  
+}
+
+.option1,.option2,.option3{
+/* border-bottom: 2px solid dodgerblue; */
+padding: 10px 0px;
+width: 150px;
+font-weight: bold;
+}
+
+.header{
+   background: #282c34;
+   margin-top: -20px;
+   line-height: 50px;
+   color: rgb(243, 67, 184);
+   text-shadow: 1px 2px rgba(0,0,0,0.4);
+   box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.8);
+   /* border-radius: 108px; */
+}
+
+select{
+  width: 62%;
+  padding: 7px 20px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.search-btn{
+  background: dodgerblue;
+  padding: 7px 10px;
+  border: none;
+  border: 2px solid dodgerblue;
+  font-family: verdana;
+  border-radius: 4px;
+  color: white;
+  margin : 13px ;
+  margin-left: -145px;
+  box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.8);
+}
+
+body{
+  background: #282c34;
+}
+
+th{ 
+  border: 3px solid dodgerblue;
+  padding: 7px 15px;
+}
+/* td{
+  border-left: 2px solid dodgerblue;
+} */
+table{
+    border: 1px solid black;
+    width: 95.5%;
+    margin: 9px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.8);
+    padding-bottom: 5px;
+}
+
+
+td{ 
+  /* border: 1px solid dodgerblue; */
+  padding: 8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
