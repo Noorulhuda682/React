@@ -1,0 +1,59 @@
+.App-headers {
+    /* background-color: white; */
+    min-height: 7vh;
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: calc(5px + 2vmin);
+    box-shadow: 0px 0px 3px 1px rgb(211, 54, 185);;
+    border-top: 1px solid rgb(211, 54, 185);
+    padding: 9px 0px ;
+    font-weight: normal;
+    /* border-radius: 10px; */
+  }
+  
+  
+  div{
+    cursor: pointer;
+    color: gray;
+    /* border-bottom: 3px solid white; */
+    
+  }
+  
+  .option1,.option2,.option3{
+  width: 150px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* background: rgb(211, 54, 185); */
+
+  }
+
+  .user-icon i{
+      color:gray;
+      transform: translate(45px,-16px);
+      font-size: 25px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      padding: 10px 0px; 
+  }
+
+  .reastaurent-icon i{
+    transform: translate(40px,-16px);
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 15px 0px; 
+}
+
+
+
+
+
+
+
+
+
+

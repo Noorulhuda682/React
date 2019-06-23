@@ -1,0 +1,109 @@
+.prnt-product{
+ /* border : 2px solid rgb(139, 10, 96); */
+ height:50vh; 
+ background: white;
+ padding: 10px;
+ margin-top: 15px;
+ border-radius: 25px;
+ /* z-index:-1; */
+}
+
+.prnt-product .child-product{
+    border: 2px solid rgb(139, 10, 96);
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.4);
+    margin-top: 13px;
+    height: 14vh;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.prnt-product .child-product .restaurent-name{
+    width: 40%;
+    /* border: 2px solid rgb(190, 25, 163); */
+    border-radius: 10px;
+    background: rgb(139, 10, 96);
+    color: white;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.9);
+    font-size:19px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.prnt-product .child-product .restaurent-items{
+    width: 60%;
+    color: rgb(15, 15, 15);
+} 
+
+.userview-box{
+    /* border: 2px solid rgb(163, 4, 4); */
+    border-radius: 10px;
+    background: rgb(216, 10, 188);
+}
+
+.header{
+    margin-top: 18px;
+    /* height: 7vh; */
+    /* border-radius: 10px; */
+    background: rgb(216, 10, 188);
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.4);
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    padding: 20px 20px;
+}
+
+.search-box input{
+  border: none;
+  width:260px;
+  padding:11px 10px;
+  border-radius: 20px;
+  background: rgb(250, 107, 231);
+  /* box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4); */
+}
+
+
+.eating-title{
+    font-size: 27px;
+    color:rgb(252, 247, 247);
+    width:80%;
+    margin: 0px auto;
+}
+
+
+
+.search-box i{
+    color:white;
+    color:rgb(216, 10, 188);
+    font-size: 22px;
+    position: relative;
+    left:30px;
+}
+
+.footer{
+    /* border: 1px solid dodgerblue; */
+    position: fixed;
+    z-index: 2;
+    top: 91vh;
+    width: 100%;
+    padding: 5px 0px;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
