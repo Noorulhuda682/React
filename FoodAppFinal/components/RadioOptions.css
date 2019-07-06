@@ -1,0 +1,38 @@
+.prnt-radio-block{
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+  
+  }
+  
+  
+  .radio-block{
+    background: rgb(207, 26, 168);
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px 0px ;
+    /* box-shadow: 2px 3px 3px 4px rgba(0,0,0,0.7); */
+
+  }
+  
+  .radio-block h4{
+    color: black;
+    margin-bottom: 40px;
+    font-family: arial;
+  }
+  
+  .radio-block div{
+    margin-top: 0px;
+    padding: 15px 0px;
+    color: white;
+    /* text-shadow: 1px 0px gray; */
+    font-weight: bold;
+    font-family: arial;
+    font-size: 18px;
+    }
+  
+  
+  

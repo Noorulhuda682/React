@@ -1,0 +1,208 @@
+
+.restaurent{
+    background: rgb(226, 226, 226);
+    background: white;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    line-height: 20px;
+    font-size: 14px;
+}
+.flex-child{
+    border: 2px solid yellow;
+    /* color: rgb(219, 23, 203); */
+    width: 33%;
+line-height: 30px;
+margin-top: 20px;
+}
+
+.requests{
+/* border: 1px solid black; */
+margin-top: 10px;
+}
+
+.requests-childs .reqSet{
+    /* border: 2px solid red; */
+    position: relative;
+    margin-top: -70px;
+    text-align: center;
+    padding-left: 80px;
+}
+.requests-childs{
+    /* border:  1px solid gray; */
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
+    text-align: left;
+    margin: 0px 10px;
+    height: 70px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.requests-childs .img1{
+    border-radius: 5px;
+    height: inherit;
+    width: 70px;
+}
+
+
+.requests-childs .img2{
+  border-radius: 50%;
+  width: 36px;
+  position: relative;
+  margin-top: 10px;
+  top: 3px;
+  left: 38px;
+ /* left:-39px; */
+}
+.requests-childs i{
+    color: black;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 9px;
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+.requests-childs strong{
+    color: rgb(32, 30, 30);
+    position: relative;
+    bottom: 47px;
+    left: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.requests-childs span{
+  color: rgb(116, 112, 112);
+  font-size: 11px;
+  position: relative;
+  left: 20px;
+}
+.requests-childs button{
+    color: white;
+    background: rgb(211, 12, 134);
+    
+    border: none;
+    padding: 8px 6px;
+    margin-left: 28px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 9px;
+}
+.requests-childs button:hover{
+    background: rgb(179, 12, 115);
+    cursor: pointer;
+}
+.restaurent h4{
+    margin-top: 50px;
+    /* font-family: arial; */
+    color: black;
+    font-family: sans-serif;
+  }
+
+
+@media (min-width:800px){
+    .requests{
+        width: 80%;
+        border: 1px solid gray;
+        margin-left: 10%;
+        /* margin-top: 70px; */
+        padding: 30px 10px;
+    }
+    .requests-childs{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .restaurent h4{
+      margin-top: 90px;
+    }
+}
+
+.add-food button{
+     background: rgb(235, 38, 192);
+     border: none;
+     padding: 12px 0px;
+     width: 350px;
+     border-radius: 5px;
+     font-size: 17px;
+     font-weight: bold;
+     font-family: arial;
+     box-shadow: 0px 1px 1px 1.3px rgba(0,0,0,0.6);
+}
+
+.add-food button:hover{
+    background: rgba(206, 39, 167, 0.836);
+    cursor:pointer;
+}
+
+.apload-form{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    top: 0px;
+    z-index: 1;
+    height: 145%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.apload-form-child{
+position: relative;
+z-index: 1;
+background: white;
+top: 60px;
+width: 95%;
+height: 100px;
+border-radius: 10px;
+}
+
+@media (min-width:719px){
+    .apload-form-child{
+       width: 60%;
+       top:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

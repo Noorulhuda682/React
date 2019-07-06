@@ -1,0 +1,68 @@
+.si-gridlist{
+    /* border: 2px solid red; */
+    overflow: scroll;
+    width: 108%;
+    height: 210px;
+    /* border: 2px solid black; */
+    display: flex;
+    }
+    
+    
+    .gridlist-childs{
+       /* border: 2px solid red; */
+       /* width: 300px; */
+       margin-top: 12px;
+       margin-right: 5px;
+       display : inline-block;
+       border-radius: 10px;
+       height: 174px;
+       box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
+    
+    }
+    
+    .gridlist-childs .img-block{
+        /* border: 1px solid blue; */
+        height: 120px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .gridlist-childs .img-block img{
+        width: inherit;
+        height: inherit;
+        position: relative;
+        top:-20px;
+        border-radius: 10px 10px 0px 0px;
+    
+    }
+    
+    .gridlist-childs .name-block{
+        /* border: 1px solid brown; */
+        margin-top: 20px;
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        font-size: 16px;
+        padding: 0px 10px;
+        margin-bottom: 0px;
+        font-family: sans-serif;
+    }
+    
+    .gridlist-childs .name-block i{
+        color: rgb(228, 19, 228);
+        font-size: 35px;
+        margin-left: 240px;
+        position: relative;
+        bottom: 27px;
+    }
+    .gridlist-childs .name-block span{
+        color: rgb(180, 172, 172);
+        font-size: 11px;
+        margin-left: 2px;
+        position: relative;
+        bottom: 37px;
+        font-family: arial;
+        /* font-family: sans-serif; */
+        font-weight: normal;
+    }
+    
+    
